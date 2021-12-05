@@ -23,6 +23,4 @@ State API
 <img width="1440" alt="Screenshot 2021-12-05 at 6 01 58 PM" src="https://user-images.githubusercontent.com/68525687/144749143-fb8bfffa-d061-457a-8be0-abdc7f704b82.png">
 
 City API
-<img width="1440" alt="Screenshot 2021-12-05 at 6 01 50 PM" src="https://user-images.githubusercontent.com/68525687/144749155-a47bb957-d96a-496a-8d75-b374012cf1fe.png">
-<img width="1440" alt="Screenshot 2021-12-05 at 6 01 58 PM" src="https://user-images.githubusercontent.com/68525687/144749160-2b55659f-560f-48a0-b04e-45d671ec12b2.png">
 <img width="1440" alt="Screenshot 2021-12-05 at 6 02 18 PM" src="https://user-images.githubusercontent.com/68525687/144749162-96eb1f00-89d5-489e-be03-bf1c6fdc16ee.png">
