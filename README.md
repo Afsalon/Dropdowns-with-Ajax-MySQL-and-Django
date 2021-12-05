@@ -1,10 +1,10 @@
 # Dropdowns-with-Ajax-and-MySQL
 A Project made with Django.
 MySQL is the DBMS used.
-Ajax was used to prevent the page from refreshing, after submitting the form.
+Ajax could send get request to obtain JSON data and it prevented the page from refreshing, after the form was submitted.
 A user could find any Country, and accordingly its respective States could be seen.
 Similarly Selecting a State would show all its cities, 
-Ajax could send get request to obtain JSON data.
+
 
 1)Home page
 <img width="1440" alt="Screenshot 2021-12-05 at 6 01 23 PM" src="https://user-images.githubusercontent.com/68525687/144749013-b948c3f1-333d-474f-985e-f58100b82a53.png">
