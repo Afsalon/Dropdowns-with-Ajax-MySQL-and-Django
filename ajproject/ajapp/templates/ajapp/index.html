@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+  </head>
+  <body>
+    <!-- banner -->
+    <div id='ban' class="banner"></div>
+    <div id='second_ban' class="second_banner"></div>
+
+    <!-- form_container -->
+<div class="form_container">
+
+    <!-- country form -->
+    <div class="country_form">
+      <form id='form1' method="get">
+        {% csrf_token %}
+        <select id='country_button' name="country_button">
+          {% for country in countries %}
+            <option id='{{country.name}}' value='{{country.name}}'>{{country.name}}</option>
+          {% endfor %}
+        </select>
+        <input style="visibility:hidden;" type="submit" name="" value="Submit">
+      </form>
+    </div>
+
+    <!-- state form -->
+    <div class="state_form">
+      <form id="form2" method="get">
+        {% csrf_token %}
+        <select id='state_button' name="">
+
+        </select>
+        <input style="visibility:hidden;" type="submit" name="" value="Submit">
+      </form>
+    </div>
+
+    <!-- city form -->
+    <div class="city_form">
+      <form id="form3" method="get">
+        {% csrf_token %}
+        <select id='city_button' name="">
+
+        </select>
+        <input style="visibility:hidden;" type="submit" name="" value="Submit">
+      </form>
+    </div>
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="{% static 'javascript/index.js' %}" charset="utf-8"></script>
+  </body>
+</html>
